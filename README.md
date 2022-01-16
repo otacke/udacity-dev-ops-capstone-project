@@ -33,6 +33,12 @@ AWS_SECRET=<aws iam secret access key>
 JWT_SECRET=<some jwt secret>
 ```
 
+## Configuration documentation
+- [AWS RDS](docs/config-rds.md)
+- [AWS Elastic Beanstalk](docs/config-eb.md)
+- [AWS S3 Buckets](docs/config-s3.md)
+- [CircleCI](docs/config-circleci.md)
+
 ## Rubric
 ### Preparing source code infrastructure for deployment
 #### Write code that demonstrates parameterized environment variables
@@ -49,17 +55,17 @@ No environment variable or authentication string was put into the source code. I
 The [file is in the root directory of the repository](https://github.com/otacke/udacity-dev-ops-capstone-project/blob/master/package.json) and no devDependencies were added.
 
 #### Configure the needed infrastructure for a web application
-- [ ] Screenshots of the AWS console indicate that the following services are properly set up, i.e. healthy and accessible: AWS RDS for the database, AWS ElasticBeanstalk (or alternatives like lambda) for the API, AWS s3 for web hosting
+- [x] Screenshots of the AWS console indicate that the following services are properly set up, i.e. healthy and accessible: AWS RDS for the database, AWS ElasticBeanstalk (or alternatives like lambda) for the API, AWS s3 for web hosting
 - [x] The app is accessible via the link provided.
 
-**TODO:** Screenshots. Links: [frontend in S3 bucket](http://udagram-salzteig.s3-website-us-east-1.amazonaws.com/), [backend via Elastic Beanstalk](http://udagram-env.eba-6ztdwjmr.us-east-1.elasticbeanstalk.com/)
+Screenshots of configurations: [AWS RDS](docs/config-rds.md), [AWS EB](docs/config-eb.md), [AWS S3](docs/config-s3.md), Links to sites: [frontend in S3 bucket](http://udagram-salzteig.s3-website-us-east-1.amazonaws.com/), [backend via Elastic Beanstalk](http://udagram-env.eba-6ztdwjmr.us-east-1.elasticbeanstalk.com/)
 
 ### Configuring Continuous Integration Pipeline with Github
 #### Trigger a successful pipeline on each push to the main branch
-- [ ] A screenshot of the last build shows that the student’s CircleCi account is authorized to access his/her repo on Github and is detecting changes each time he/she is pushing to the main branch.
+- [x] A screenshot of the last build shows that the student’s CircleCi account is authorized to access his/her repo on Github and is detecting changes each time he/she is pushing to the main branch.
 - [x] Optionally, a build status badge is present in the README.md, indicating the current state of the main branch build.
 
-**TODO:** Screenshot. Build status: [![otacke](https://circleci.com/gh/otacke/udacity-dev-ops-capstone-project.svg?style=svg)](https://github.com/otacke/udacity-dev-ops-capstone-project)
+[Screenshot of builds running and reacting to pushes](/screenshots/circleci-builds.png),  build status: [![otacke](https://circleci.com/gh/otacke/udacity-dev-ops-capstone-project.svg?style=svg)](https://github.com/otacke/udacity-dev-ops-capstone-project)
 
 #### Write a proper pipeline file using the config.yml format used by CircleCi
 - [x] The submission includes a config.yml that ensures the build occurs in a logical sequence. Comments help explain the flow of the pipeline and are straight to the point.
@@ -68,9 +74,9 @@ The [file is in the root directory of the repository](https://github.com/otacke/
 There's a [CircleCI configuration](https://github.com/otacke/udacity-dev-ops-capstone-project/blob/master/.circleci/config.yml) and it obviously can be executed given that there's a (passing) build status.
 
 #### Configure secrets via the Continuous Integration software
-- [ ] All the secrets found in the application are configured inside CircleCi and passed to the production application. A screenshot of the configuration screen is present to show where secrets were added.
+- [x] All the secrets found in the application are configured inside CircleCi and passed to the production application. A screenshot of the configuration screen is present to show where secrets were added.
 
-**TODO:** Screenshot
+[Screenshot of CircleCI environment variables](/screenshots/circleci-environment-variables.png)
 
 ### Documenting Deployment Process
 #### Write code that demonstrates a well-organized docs folder
