@@ -10,7 +10,7 @@ You will find the result of hours after hours of trying to figure out how this s
 I went through all kinds of troubles (speaking in HTTP error codes: 401, 403, 502 + CORS issues + other things) that the course didn't really prepare for - thankfully, there was the forum where I noticed that troubles are all the same among participants 😀 Otherwise, I can read documentation on my own time without paying for it 😉
 
 ## CircleCI build status
-[![otacke](https://circleci.com/gh/otacke/udacity-dev-ops-capstone-project.svg?style=svg)](https://github.com/otacke/udacity-dev-ops-capstone-project)
+[![CircleCI](https://circleci.com/gh/otacke/udacity-dev-ops-capstone-project/tree/master.svg?style=svg&circle-token=4a29a28688ec8ba58c04369b040a360bd390fbda)](https://circleci.com/gh/otacke/udacity-dev-ops-capstone-project/tree/master)
 
 ## Getting Started
 There's a starter project at https://github.com/udacity/nd0067-c4-deployment-process-project-starter that
@@ -72,7 +72,7 @@ Screenshots of configurations: [AWS RDS](docs/config-rds.md), [AWS EB](docs/conf
 - [x] A screenshot of the last build shows that the student’s CircleCi account is authorized to access his/her repo on Github and is detecting changes each time he/she is pushing to the main branch.
 - [x] Optionally, a build status badge is present in the README.md, indicating the current state of the main branch build.
 
-[Screenshot of builds running and reacting to pushes](/screenshots/circleci-builds.png),  build status: [![otacke](https://circleci.com/gh/otacke/udacity-dev-ops-capstone-project.svg?style=svg)](https://github.com/otacke/udacity-dev-ops-capstone-project)
+[Screenshot of builds running and reacting to pushes](/screenshots/circleci-builds.png), build status: [![CircleCI](https://circleci.com/gh/otacke/udacity-dev-ops-capstone-project/tree/master.svg?style=svg&circle-token=4a29a28688ec8ba58c04369b040a360bd390fbda)](https://circleci.com/gh/otacke/udacity-dev-ops-capstone-project/tree/master)
 
 #### Write a proper pipeline file using the config.yml format used by CircleCi
 - [x] The submission includes a config.yml that ensures the build occurs in a logical sequence. Comments help explain the flow of the pipeline and are straight to the point.
