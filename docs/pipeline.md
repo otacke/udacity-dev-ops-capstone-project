@@ -12,7 +12,7 @@ image seems to be shipping with v17 which caused trouble with some library that
 required OpenSSL settings.
 
 ## Steps started on each push to the repository
-- Basic functionality
+- Set up basic functionality
   - Install Node.js
   - Checkout code
   - Install Google Chrome (for frontend test)
