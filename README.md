@@ -39,6 +39,11 @@ JWT_SECRET=<some jwt secret>
 - [AWS S3 Buckets](docs/config-s3.md)
 - [CircleCI](docs/config-circleci.md)
 
+## Some more details on ...
+- [Dependencies](/docs/dependencies.md)
+- [Infrastructure](/docs/infrastructure.md)
+- [Pipeline process](/docs/pipeline.md)
+
 ## Rubric
 ### Preparing source code infrastructure for deployment
 #### Write code that demonstrates parameterized environment variables
