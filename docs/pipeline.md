@@ -29,4 +29,4 @@ required OpenSSL settings.
 - Deploy frontend (in S3 bucket)
 
 ## Diagram
-**TODO**
+![Diagram pipeline](assets/diagram-pipeline.svg)

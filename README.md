@@ -80,15 +80,15 @@ There's a [CircleCI configuration](https://github.com/otacke/udacity-dev-ops-cap
 
 ### Documenting Deployment Process
 #### Write code that demonstrates a well-organized docs folder
-- [ ] A documentation folder should include separate pages on different topics that cannot be discovered by just quickly glancing at code: Infrastructure description, App dependencies, Pipeline process
+- [x] A documentation folder should include separate pages on different topics that cannot be discovered by just quickly glancing at code: Infrastructure description, App dependencies, Pipeline process
 
-**TODO**
+There are separate documents with some more details on [dependencies](/docs/dependencies.md), [infrastructure](/docs/infrastructure.md) and the [pipeline process](/docs/pipeline.md).
 
 #### Prepare an architecture diagram to document the deployment flow
-- [ ] The submission contains a simple diagram giving a high-level overview of the infrastructure and another diagram showing the overview of the pipeline. The diagram Includes the different AWS services used for hosting the following: DB, API, Front-End
-- [ ] A representation of the communication between the services is present in the diagram (ex: arrows between services).
+- [x] The submission contains a simple diagram giving a high-level overview of the infrastructure and another diagram showing the overview of the pipeline. The diagram Includes the different AWS services used for hosting the following: DB, API, Front-End
+- [x] A representation of the communication between the services is present in the diagram (ex: arrows between services).
 
-**TODO**
+The [infrastructure diagram](/docs/assets/diagram-infrastructure.svg) can be found in the [infrastructure docs](/docs/infrastructure.md). The [pipeline diagram](/docs/assets/diagram-pipeline.svg) can be found in the [pipeline docs](/docs/pipeline.md). The latter contains arrows representing the communication flow.
 
 ## License
 

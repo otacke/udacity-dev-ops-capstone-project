@@ -15,4 +15,4 @@
 - The S3 bucket (frontend) fetches images from the S3 bucket (images) based in the URL inside the data that was sent by the backend.
 
 ## Diagram
-** TODO ***
+![Diagram infrastructure](assets/diagram-infrastructure.svg)
