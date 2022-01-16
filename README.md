@@ -7,6 +7,8 @@ You will find the result of hours after hours of trying to figure out how this s
 - http://udagram-salzteig.s3-website-us-east-1.amazonaws.com/ (frontend in S3 bucket)
 - http://udagram-env.eba-6ztdwjmr.us-east-1.elasticbeanstalk.com/ (backend via Elastic Beanstalk)
 
+I went through all kinds of troubles (speaking in HTTP error codes: 401, 403, 502 + CORS issues + other things) that the course didn't really prepare for - thankfully, there was the forum where I noticed that troubles are all the same among participants 😀 Otherwise, I can read documentation on my own time without paying for it 😉
+
 ## CircleCI build status
 [![otacke](https://circleci.com/gh/otacke/udacity-dev-ops-capstone-project.svg?style=svg)](https://github.com/otacke/udacity-dev-ops-capstone-project)
 
